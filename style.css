@@ -4,7 +4,8 @@
     --botão-verde: #4DA768;
     --cor-de-fundo: #000000;
     --fonte-principal: 'Inter';
-    --botão-verde-efeito: #32533c; 
+    --botão-verde-efeito: #32533c;
+    --cinza-terciário: #DCDCDC80; 
 }
 
 body {
@@ -42,6 +43,7 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+    font-size: 25px;
 }
 
 .botão-secundário {
@@ -50,18 +52,18 @@ body {
 }
 
 .container-aviso {
-    font-size: 12px;
+    font-size: 18px;
     color: var(--cinza-secundário);
 }
 
 .container-titúlo {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .container-imagem {
     margin: 1em 0 2em 0;
-    width: 245px;
+    width: 350px;
 }
 
 .container-caixa {
@@ -73,6 +75,10 @@ body {
     border-radius: 5%;
 }
 
+.descrição-texto-dois {
+    font-size: 25px;
+}
+
 .secundário {
     align-items: center;
     margin: 0 10em;
@@ -81,7 +87,7 @@ body {
 
 .descrição-titúlo {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 65px;
     color: var(--branco-principal);
     margin-bottom: 0,1em;
 }
@@ -89,6 +95,7 @@ body {
 .secundário-botão {
     display: inline-block;
     margin-top: 1em;
+    font-size: 30px;
 }
 
 .container-descrição {
@@ -125,6 +132,7 @@ body {
     justify-content: center;
     list-style-type: none;
     margin-top: 1em;
+    font-size: 20px;
 }
 
 .lista-link a{
@@ -133,10 +141,14 @@ body {
     margin-left: 1em;
 }
 
+.final-logo {
+    width: 130px;
+}
+
 .final-texto {
     margin: 1em 0;
     color: var(--cinza-secundário);
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .final {
@@ -155,4 +167,8 @@ body {
 .container-botão:hover {
     background-color: var(--botão-verde-efeito);
     color: var(--cinza-secundário);
+}
+
+.botão-secundário:hover {
+    background-color: var(--cinza-terciário);
 }
